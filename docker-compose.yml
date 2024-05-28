@@ -1,6 +1,6 @@
 services:
   app:
-    image: aoirint/lastfm_api_middleware:0.3.1
+    image: aoirint/lastfm_api_middleware:0.3.2
     restart: always
     environment:
       LASTFM_USER: ${LASTFM_USER:?}
